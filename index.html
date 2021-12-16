@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title> Calculadora </title>
+</head>
+
+<body>
+  
+  <div class = 'body'>
+    <h1> Projeto Calculadora </h1>
+    <div class = 'tabela'>
+      <table>
+        <caption> Calculadora </caption>
+        <tr>
+          <th colspan="4"> <p id='resultado'></p> <th>
+        </tr>
+        <tr>
+          <th><button class = 'botao' onclick = clean() > c </button></th>
+          <th><button class = 'botao' onclick = erase()> < </button></th>
+          <th><button class = 'botao' onclick = numero('/')> / </button></th>
+          <th><button class = 'botao' onclick = numero('x')> x </button></th>
+        </tr>
+        <tr>
+          <th><button class = 'botao' onclick = numero(7)> 7 </button></th>
+          <th><button class = 'botao' onclick = numero(8)> 8 </button></th>
+          <th><button class = 'botao' onclick = numero(9)> 9 </button></th>
+          <th><button class = 'botao' onclick = numero('-')> - </button></th>
+        </tr>
+        <tr>
+          <th><button class = 'botao' onclick = numero(4)> 4 </button></th>
+          <th><button class = 'botao' onclick = numero(5)> 5 </button></th>
+          <th><button class = 'botao' onclick = numero(6)> 6 </button></th>
+          <th><button class = 'botao' onclick = numero('+')> + </button></th>
+        </tr>
+        <tr>
+            <th><button class = 'botao' onclick = numero(1)> 1 </button></th>
+            <th><button class = 'botao' onclick = numero(2)> 2 </button></th>
+            <th><button class = 'botao' onclick = numero(3)> 3 </button></th>
+            <th rowspan = '2'><button class = 'botao' style="height:106px" onclick = calcular()> = </button></th>
+          </tr>
+        <tr>
+          <th><button class = 'botao' onclick = numero(0)> 0 </button></th>
+          <th colspan = '2'><button class = 'botao' style="width:106px" onclick = numero('.')> . </button></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
