@@ -1,0 +1,46 @@
+.body {
+  margin:0;
+  padding:0;
+  background: linear-gradient(gray,pink);
+  height:100vh;
+  color: black;
+  font-family: arial;
+  text-align: center;
+}
+
+.tabela {
+  font-size: 25px;
+  color: pink;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.botao {
+  margin: 3px;
+  width: 40px;
+  height:40px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #696969;
+  border: none;
+  color: #fff;
+}
+.botao:hover {
+  background-color:black;
+} 
+
+#resultado {
+  background-color: white;
+  color: black;
+  width: 207px;
+  height:30px;
+  margin:5px;
+  font-size:25px;
+  text-align:right;
+  padding: 5px;
+}
